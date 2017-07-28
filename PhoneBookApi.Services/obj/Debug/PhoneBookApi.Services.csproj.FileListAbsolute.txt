@@ -1,0 +1,12 @@
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.Services.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.Services.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.Domain.Models.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.Domain.Models.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\obj\Debug\PhoneBookApi.Services.csprojResolveAssemblyReference.cache
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\obj\Debug\PhoneBookApi.Services.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\obj\Debug\PhoneBookApi.Services.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.DataAccess.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\EntityFramework.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.DataAccess.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\EntityFramework.xml
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Services\bin\Debug\PhoneBookApi.DataAccess.dll.config

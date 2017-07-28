@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi", "PhoneBookApi\PhoneBookApi.csproj", "{01CF5670-45B6-41E6-BE9E-5E810B748572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi.Tests", "PhoneBookApi.Tests\PhoneBookApi.Tests.csproj", "{B45BAE83-5B85-444F-8165-823529D80987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi.Services", "PhoneBookApi.Services\PhoneBookApi.Services.csproj", "{89F031DB-F3C7-44F3-9292-34A20B6E311B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi.DataAccess", "PhoneBookApi.DataAccess\PhoneBookApi.DataAccess.csproj", "{608BF8F0-A1E5-4110-90B8-73CCF2053272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi.Domain.Models", "PhoneBookApi.Domain.Models\PhoneBookApi.Domain.Models.csproj", "{256C2A00-9E5C-4C51-8B27-793C6795F21E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi.UnitOfWork", "PhoneBookUnitOfWork\PhoneBookApi.UnitOfWork.csproj", "{FB5D2EDA-12E9-4A2C-BA87-3199CF16CEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CF5670-45B6-41E6-BE9E-5E810B748572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CF5670-45B6-41E6-BE9E-5E810B748572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CF5670-45B6-41E6-BE9E-5E810B748572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CF5670-45B6-41E6-BE9E-5E810B748572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45BAE83-5B85-444F-8165-823529D80987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45BAE83-5B85-444F-8165-823529D80987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45BAE83-5B85-444F-8165-823529D80987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45BAE83-5B85-444F-8165-823529D80987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F031DB-F3C7-44F3-9292-34A20B6E311B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F031DB-F3C7-44F3-9292-34A20B6E311B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F031DB-F3C7-44F3-9292-34A20B6E311B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F031DB-F3C7-44F3-9292-34A20B6E311B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608BF8F0-A1E5-4110-90B8-73CCF2053272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608BF8F0-A1E5-4110-90B8-73CCF2053272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608BF8F0-A1E5-4110-90B8-73CCF2053272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608BF8F0-A1E5-4110-90B8-73CCF2053272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256C2A00-9E5C-4C51-8B27-793C6795F21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256C2A00-9E5C-4C51-8B27-793C6795F21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256C2A00-9E5C-4C51-8B27-793C6795F21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256C2A00-9E5C-4C51-8B27-793C6795F21E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5D2EDA-12E9-4A2C-BA87-3199CF16CEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5D2EDA-12E9-4A2C-BA87-3199CF16CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5D2EDA-12E9-4A2C-BA87-3199CF16CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5D2EDA-12E9-4A2C-BA87-3199CF16CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

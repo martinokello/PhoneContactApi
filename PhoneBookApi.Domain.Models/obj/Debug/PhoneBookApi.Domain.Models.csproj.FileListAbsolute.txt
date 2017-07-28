@@ -1,0 +1,5 @@
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Domain.Models\bin\Debug\PhoneBookApi.Domain.Models.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Domain.Models\bin\Debug\PhoneBookApi.Domain.Models.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Domain.Models\obj\Debug\PhoneBookApi.Domain.Models.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Domain.Models\obj\Debug\PhoneBookApi.Domain.Models.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi.Domain.Models\obj\Debug\PhoneBookApi.Domain.Models.csprojResolveAssemblyReference.cache
