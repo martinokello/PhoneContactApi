@@ -12,7 +12,9 @@ namespace PhoneBookApi.Services.Interfaces
     {
         PhoneNumber GetContactNumber(int contactId);
         IEnumerable<PhoneNumber> GetAllContactNumbers(int contactId);
-        bool AddPhoneNumber(Contact contact, string phoneNumber);
+        bool AddContact(Contact contact);
+        bool AddPhone(PhoneNumber phoneNumber);
+        bool AddPhoneNumber(int contactId, PhoneNumber phoneNumber);
         bool UpdatePhoneNumber(Contact contact, string phoneNumber);
         bool UpdateContact(Contact contact);
         bool DeletePhoneNumber(Contact contact, string phoneNumber);

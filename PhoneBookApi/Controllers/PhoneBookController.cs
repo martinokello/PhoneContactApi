@@ -20,9 +20,6 @@ namespace PhoneBookApi.Controllers
         public PhoneBookController() { }
         public PhoneBookController(IPhoneBookService service) {
             _phoneBookService = service;
-            _unitOfWork = new PhoneBookUnitOfWork(service);
-            (service as PhoneBookService).PhoneRepository.PhoneBookDbContext = (_unitOfWork as PhoneBookUnitOfWork).PhoneBookDbContext;
-            (service as PhoneBookService).ContactRepository.PhoneBookDbContext = (_unitOfWork as PhoneBookUnitOfWork).PhoneBookDbContext;
         }
 
         public IUnitOfWork PhoneBookUnitOfWork
@@ -37,9 +34,11 @@ namespace PhoneBookApi.Controllers
 
             try
             {
-                var success =_phoneBookService.AddPhoneNumber(contact, phoneNumber);
-                _unitOfWork.SaveChanges();
-                return Ok<bool>(success);
+                var phone = new PhoneNumber {Phone = phoneNumber};
+                contact.PhoneNumber = phone;
+                var phoneAddedSucc = _phoneBookService.AddPhone(phone);
+                var contactAddedSucc =_phoneBookService.AddPhoneNumber(contact.ContactId,phone);
+                return Ok<bool>(phoneAddedSucc && contactAddedSucc);
             }
             catch(Exception e)
             {

@@ -11,10 +11,7 @@ namespace PhoneBookApi.Domain.Models
     public class PhoneNumber
     {
         [Key]
-        public int phoneId { get; set; }
+        public int PhoneId { get; set; }
         public string Phone { get; set; }
-        [ForeignKey("Contact")]
-        public int ContactId { get; set; }
-        public Contact Contact { get; set; }
     }
 }

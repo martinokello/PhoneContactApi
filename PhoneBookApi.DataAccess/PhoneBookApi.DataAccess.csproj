@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Interfaces\App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PhoneBookApi.Domain.Models\PhoneBookApi.Domain.Models.csproj">

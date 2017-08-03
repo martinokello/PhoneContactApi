@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,7 +51,10 @@
     <Compile Include="Interfaces\IPhoneBookService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PhoneBookApi.DataAccess\PhoneBookApi.DataAccess.csproj">
       <Project>{608BF8F0-A1E5-4110-90B8-73CCF2053272}</Project>
@@ -53,6 +63,10 @@
     <ProjectReference Include="..\PhoneBookApi.Domain.Models\PhoneBookApi.Domain.Models.csproj">
       <Project>{256C2A00-9E5C-4C51-8B27-793C6795F21E}</Project>
       <Name>PhoneBookApi.Domain.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhoneBookUnitOfWork\PhoneBookApi.UnitOfWork.csproj">
+      <Project>{fb5d2eda-12e9-4a2c-ba87-3199cf16cedd}</Project>
+      <Name>PhoneBookApi.UnitOfWork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

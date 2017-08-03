@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concretes\UnitOfWork.cs" />
+    <Compile Include="Concretes\PhoneBookUnitOfWork.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,10 +51,6 @@
     <ProjectReference Include="..\PhoneBookApi.DataAccess\PhoneBookApi.DataAccess.csproj">
       <Project>{608BF8F0-A1E5-4110-90B8-73CCF2053272}</Project>
       <Name>PhoneBookApi.DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhoneBookApi.Services\PhoneBookApi.Services.csproj">
-      <Project>{89F031DB-F3C7-44F3-9292-34A20B6E311B}</Project>
-      <Name>PhoneBookApi.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

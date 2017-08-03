@@ -41,9 +41,9 @@ namespace PhoneBookApi.Tests
         public void SetUp()
         {
             contacts1 = new Contact { ContactId = 1, FirstName = "Martin", LastName = "Okello"};
-            phoneNumbers1 = new List<PhoneNumber> { new PhoneNumber { Contact = contacts1, phoneId = 1, ContactId=1, Phone = "03945785856"} };
+            phoneNumbers1 = new List<PhoneNumber> { new PhoneNumber { PhoneId = 1,  Phone = "03945785856"} };
             contacts2 = new Contact { ContactId = 2, FirstName = "Joe", LastName = "Bloggs" };
-            phoneNumbers2 = new List<PhoneNumber> { new PhoneNumber { Contact = contacts2, phoneId = 2, ContactId = 2, Phone = "056956856785" } };
+            phoneNumbers2 = new List<PhoneNumber> { new PhoneNumber { PhoneId = 2,  Phone = "056956856785" } };
 
             var contacts = new List<Contact> { contacts1, contacts2 };
             var phoneNumbers = phoneNumbers1.Union(phoneNumbers2);
@@ -57,7 +57,7 @@ namespace PhoneBookApi.Tests
             phoneBookRepository.Setup(p => p.Update(It.IsAny<PhoneNumber>())).Returns(true);
             phoneBookRepository.Setup(p => p.Delete(phoneNumbers.FirstOrDefault(q=> q.Phone== "03945785856"))).Returns(true);
             phoneBookRepository.Setup(p => p.GetAll()).Returns(phoneNumbers);
-            phoneBookRepository.Setup(p => p.GetById(1)).Returns(phoneNumbers.SingleOrDefault(q=> q.phoneId ==1));
+            phoneBookRepository.Setup(p => p.GetById(1)).Returns(phoneNumbers.SingleOrDefault(q=> q.PhoneId ==1));
 
             contactRepository.Setup(p => p.Add(It.IsAny<Contact>())).Returns(true);
             contactRepository.Setup(p => p.Update(It.IsAny<Contact>())).Returns(true);
@@ -65,7 +65,7 @@ namespace PhoneBookApi.Tests
             contactRepository.Setup(p => p.GetAll()).Returns(contacts);
             contactRepository.Setup(p => p.GetById(1)).Returns(contacts.SingleOrDefault(q => q.ContactId == 1));
 
-            _phoneBookService = new PhoneBookService(contactRepository.Object, phoneBookRepository.Object);
+            _phoneBookService = new PhoneBookService(contactRepository.Object, phoneBookRepository.Object, new FakeUnitOfWork());
 
             controller = new PhoneBookController(_phoneBookService);
             controller.PhoneBookUnitOfWork = _unitOfWork;

@@ -14,6 +14,10 @@ namespace PhoneBookApi.Domain.Models
         public int ContactId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IEnumerable<PhoneNumber> PhoneNumbers { get; set; }
+        [ForeignKey("PhoneNumber")]
+        public int PhoneId { get; set; }
+        public PhoneNumber PhoneNumber { get; set; }
+        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
+        
     }
 }

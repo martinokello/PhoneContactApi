@@ -19,7 +19,7 @@ namespace PhoneBookApi.DataAccess.Concretes
 
         public virtual bool Delete(PhoneNumber item)
         {
-             var phone = PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.phoneId == item.phoneId);
+             var phone = PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.PhoneId == item.PhoneId);
             if (phone != null)
             {
                 PhoneBookDbContext.PhoneNumbers.Remove(phone);
@@ -35,12 +35,12 @@ namespace PhoneBookApi.DataAccess.Concretes
 
         public virtual PhoneNumber GetById(int id)
         {
-            return PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.phoneId == id);
+            return PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.PhoneId == id);
         }
 
         public virtual bool Update(PhoneNumber item)
         {
-            var phone = PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.phoneId == item.phoneId);
+            var phone = PhoneBookDbContext.PhoneNumbers.SingleOrDefault(p => p.PhoneId == item.PhoneId);
             if(phone != null)
             {
                 phone.Phone = item.Phone;

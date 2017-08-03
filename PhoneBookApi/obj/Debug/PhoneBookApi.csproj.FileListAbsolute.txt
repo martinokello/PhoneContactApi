@@ -60,10 +60,13 @@ C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\System.Web.Razor.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\System.Web.WebPages.Deployment.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\System.Web.WebPages.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\System.Web.WebPages.Razor.dll
+C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\WebApiContrib.IoC.Unity.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\WebGrease.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.DataAccess.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.DataAccess.dll.config
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.Domain.Models.pdb
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.Services.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.Services.dll.config
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookUnitOfWork.pdb
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\Microsoft.AI.DependencyCollector.xml
 C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
@@ -106,5 +109,3 @@ C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\System.Web.Http.Owin.xml
 C:\C#Projects\PhoneBookApi\PhoneBookApi\obj\Debug\PhoneBookApi.csprojResolveAssemblyReference.cache
 C:\C#Projects\PhoneBookApi\PhoneBookApi\obj\Debug\PhoneBookApi.dll
 C:\C#Projects\PhoneBookApi\PhoneBookApi\obj\Debug\PhoneBookApi.pdb
-C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\PhoneBookApi.DataAccess.dll.config
-C:\C#Projects\PhoneBookApi\PhoneBookApi\bin\WebApiContrib.IoC.Unity.dll

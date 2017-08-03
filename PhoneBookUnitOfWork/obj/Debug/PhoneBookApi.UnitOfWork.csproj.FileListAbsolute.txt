@@ -1,14 +1,12 @@
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookUnitOfWork.dll
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookUnitOfWork.pdb
-C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.DataAccess.dll
-C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.Services.dll
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\EntityFramework.dll
+C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.DataAccess.dll
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.Domain.Models.dll
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.DataAccess.pdb
-C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.Services.pdb
+C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.DataAccess.dll.config
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\EntityFramework.xml
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.Domain.Models.pdb
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\obj\Debug\PhoneBookApi.UnitOfWork.csprojResolveAssemblyReference.cache
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\obj\Debug\PhoneBookUnitOfWork.dll
 C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\obj\Debug\PhoneBookUnitOfWork.pdb
-C:\C#Projects\PhoneBookApi\PhoneBookUnitOfWork\bin\Debug\PhoneBookApi.DataAccess.dll.config

@@ -5,6 +5,8 @@ using PhoneBookApi.Services.Concretes;
 using PhoneBookApi.Services.Interfaces;
 using Microsoft.Practices.ServiceLocation;
 using Microsoft.Practices.Unity;
+using PhoneBookApi.UnitOfWork.Concretes;
+using PhoneBookApi.UnitOfWork.Interfaces;
 
 namespace PhoneBookApi.AppStart
 {
@@ -22,6 +24,7 @@ namespace PhoneBookApi.AppStart
             container.RegisterType<IRepositoryPhoneMarker, PhoneBookApi.DataAccess.Concretes.PhoneNumberRepository>();
             container.RegisterType<IRepositoryContactMarker, PhoneBookApi.DataAccess.Concretes.ContactRepository>();
             container.RegisterType<IPhoneBookService, PhoneBookService>();
+            container.RegisterType<IUnitOfWork, PhoneBookUnitOfWork>();
 
             var types = Assembly.GetExecutingAssembly().GetTypes();
 
